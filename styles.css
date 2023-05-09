@@ -1,0 +1,35 @@
+h1, p {
+    text-align: center;
+    margin: 1em auto;
+    width: 80vw;
+    font-family: monaco;
+  
+  
+  }
+  body {
+  background-color: #F0FFFF;
+  font-family: "Courier New"; 
+  
+  
+  }
+  fieldset {
+  padding: 20px;
+  border: none;
+  border-bottom: 3px solid #556B1F;
+  
+  
+  }
+  label {
+  display: block;
+  margin: 0.5rem 0; 
+  }
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+  }
+  .bold {
+    font-weight: bold; 
+    color: rgba(0, 0, 0, 0.89);
+  }

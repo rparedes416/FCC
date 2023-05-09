@@ -1,1 +1,1 @@
-# FCC
+This is the first project I did on FreeCodeCamp. This is a survey website. 

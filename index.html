@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+            <title>Nest Outing Feedback</title>
+            <link rel="stylesheet" href="styles.css">
+        </head>
+        <body>
+          <h1 id="title">Nest Outing Feedback</h1>
+          <p id="description">This survey is not anonymous and serves to help receive feedback about the most recent Nest Outing to gather information on how we can improve the next one</p>
+          <form id="survey-form">
+            <fieldset>
+            <label class="bold" id="name-label" for="name">Name</label><input required id="name" type="text" name="name" placeholder="Enter your name">
+
+ <label id="email-label" for="email" class="bold" >Email</label><input required id="email" name="email" type="email" placeholder="Enter your email"></input>
+           <label id="number-label" for="number" class="bold" > Age <em>(optional)</em></label><input name="number" min="10" max="99" id="number" placeholder="age" type="number"></input>
+</fieldset> 
+<fieldset>
+<label for="dropdown" class="bold">What is your department?</label> <select id="dropdown">
+  <option value="">Select one</option>
+  <option value="1">MFG</option>
+  <option value="2">F&E</option>
+  <option value="3">MSAT</option>
+  <option value="4">MTS</option>
+  <option value="5">Other</option>
+  </select>
+  <label for="recommend" class="bold" >Would you go to this nest outing again?</label>
+  <label for="definitely"> <input id="definitely" name="recommend"
+value="recommend" type="radio">Definitely</input></label>
+  <label for="maybe"><input id="Maybe"  type="radio" name="recommend" value="recommend">Maybe</input></label>
+  <label for="not-sure"><input id="not-sure"
+ type="radio" name="recommend" value="recommend">Not Sure</input></label> 
+<label for="next-outing" class="bold" >Where would you prefer to go to for the next outing?</label>
+<label for="Top-Golf"><input id="Top-Golf" name="next-outing" type="checkbox" value="next-outing">Top Golf</input></label>
+<label for="laser-tag"><input id="laser-tag" name="next-outing" type="checkbox" value="next-outing">Laser Tag</input></label>
+<label for="Bowling"> <input id="Bowling" name="next-outing" type="checkbox" value="next-outing">Bowling</input></label>
+</fieldset>
+<fieldset>
+<label id="suggestion" for="suggestion" class="bold" >Where would you suggest we go to for the next outing?</label><textarea id="suggestion" name="suggestion" type="textarea" placeholder="e.g. Movies, lunch, etc."></textarea>
+
+  
+</fieldset>
+<input id="submit" type="submit" value="submit">
+             </form>
+          
+        </body>
+        </html> 
